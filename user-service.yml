@@ -18,7 +18,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
 
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:config-server:http://localhost:8888
 
   devtools:
     restart:
